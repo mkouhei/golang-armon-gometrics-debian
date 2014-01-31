@@ -1,0 +1,16 @@
+Source: golang-metrics-alternative
+Section: devel
+Priority: extra
+Maintainer: Kouhei Maeda <mkouhei@palmtb.net>
+Build-Depends: debhelper (>= 9.0.0), dh-golang, golang-go
+Standards-Version: 3.9.5
+Homepage: https://github.com/armon/go-metrics
+
+Package: golang-metrics-alternative-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, golang-go
+Description: export performance and runtime metrics to external metrics systems
+ This library provides a metrics package which can be used to instrument code,
+ expose application metrics, and profile runtime performance in a flexible
+ manner.
+

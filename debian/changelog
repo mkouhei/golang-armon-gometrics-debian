@@ -1,0 +1,5 @@
+golang-metrics-alternative (0.0~git20140129+a15f969-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)
+
+ -- Kouhei Maeda <mkouhei@palmtb.net>  Thu, 30 Jan 2014 17:58:49 +0900
